@@ -37,7 +37,7 @@ export const heroConfig: HeroConfig = {
   ctaHref: "#collection",
   secondaryCtaText: "View Craft",
   secondaryCtaHref: "#craft",
-  heroImage: "/hero-jewelry.jpg",
+  heroImage: import.meta.env.BASE_URL + "hero-jewelry.jpg",
   heroImageAlt: "Ramya Creations handmade silk-thread bangles and earrings in rose pink and gold",
   navLinks: [
     { label: "Collection", href: "#collection" },
@@ -66,8 +66,8 @@ export const introGridConfig: IntroGridConfig = {
   titleLine2: "Tradition",
   description: "Ramya Creations was born out of a profound love for Indian artistry. Our journey began with a single spool of silk thread and a passion to reinvent traditional jewelry. Today, we empower local women artisans who pour their heart and soul into every intricate wrap, knot, and embellishment. We believe jewelry isn't just an accessory—it's a story of heritage, patience, and art.",
   portfolioImages: [
-    { src: "/silk_crafting.png", alt: "Artisan hands crafting jewelry" },
-    { src: "/hero-jewelry.jpg", alt: "Pink silk thread jewelry" },
+    { src: import.meta.env.BASE_URL + "silk_crafting.png", alt: "Artisan hands crafting jewelry" },
+    { src: import.meta.env.BASE_URL + "hero-jewelry.jpg", alt: "Pink silk thread jewelry" },
   ],
   accentText: "Est. 2024",
 };
@@ -105,7 +105,7 @@ export const featuredProjectsConfig: FeaturedProjectsConfig = {
       title: "Royal Ruby Bangles",
       category: "Bangles",
       year: "2024",
-      image: "/silk_bangles.png",
+      image: import.meta.env.BASE_URL + "silk_bangles.png",
       description: "A breathtaking stack of handcrafted silk bangles. The deep ruby threads are meticulously wrapped and adorned with golden beadwork, creating a rich focal point for festive wear and bridal trousseaus.",
     },
     {
@@ -113,7 +113,7 @@ export const featuredProjectsConfig: FeaturedProjectsConfig = {
       title: "Emerald Jhumkas",
       category: "Earrings",
       year: "2024",
-      image: "/silk_earrings.png",
+      image: import.meta.env.BASE_URL + "silk_earrings.png",
       description: "Timeless elegance embodied in vibrant emerald green. These lightweight bell-shaped earrings combine traditional jhumka silhouettes with contemporary silk finishes, perfectly complementing both ethnic and modern outfits.",
     },
     {
@@ -121,7 +121,7 @@ export const featuredProjectsConfig: FeaturedProjectsConfig = {
       title: "Sapphire Bridal Set",
       category: "Necklaces",
       year: "2024",
-      image: "/silk_necklace.png",
+      image: import.meta.env.BASE_URL + "silk_necklace.png",
       description: "A stunning statement set featuring royal blue silk threads intricately woven into a majestic necklace and matching earrings. Accented with golden undertones, it’s designed for the moments you want to shine the brightest.",
     }
   ],
@@ -189,19 +189,19 @@ export const whyChooseMeConfig: WhyChooseMeConfig = {
   ],
   featureCards: [
     {
-      image: "/silk_bangles.png",
+      image: import.meta.env.BASE_URL + "silk_bangles.png",
       imageAlt: "Authentic Materials",
       title: "Premium Silk",
       description: "We source the finest, high-sheen silk threads that resist fading and wear.",
     },
     {
-      image: "/silk_crafting.png",
+      image: import.meta.env.BASE_URL + "silk_crafting.png",
       imageAlt: "Intricate Detailing",
       title: "Intricate Detailing",
       description: "Every bead and stone is placed by hand, ensuring unparalleled precision.",
     },
   ],
-  wideImage: "/hero-jewelry.jpg",
+  wideImage: import.meta.env.BASE_URL + "hero-jewelry.jpg",
   wideImageAlt: "Our process",
   wideTitle: "A Symphony of Patience and Skill",
   wideDescription: "At Ramya Creations, each piece takes hours of dedicated craftsmanship. We breathe life into simple materials, weaving them into luxurious, lightweight adornments that celebrate the beauty of womanhood.",
